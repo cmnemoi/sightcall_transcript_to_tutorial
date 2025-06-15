@@ -1,0 +1,58 @@
+{   
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "[python]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.languageServer": "Pylance",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "name": "backend",
+                    "commands": ["cd backend"]
+                },
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
+                    "name": "frontend",
+                    "commands": ["cd frontend"]
+                },
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
+                    "name": "backend tests",
+                    "commands": ["cd backend", "uv run ptw . --clear --now"]
+                },
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
+                    "name": "frontend tests",
+                    "commands": ["cd frontend", "npm run test:watch"]
+                },
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
+                    "name": "watch",
+                    "commands": ["docker compose up"]
+                },
+            ]
+        }
+    ]
+}

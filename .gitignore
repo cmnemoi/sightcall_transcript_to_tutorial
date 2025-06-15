@@ -1,0 +1,6 @@
+# aider
+.aider*
+
+.env
+
+.coverage

@@ -1,0 +1,52 @@
+[project]
+name = "sightcall-transcript-to-tutorial"
+version = "0.0.0"
+description = "API to convert SightCall support transcripts to tutorials."
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+license = "AGPL-3.0-or-later"
+authors = [
+    {name = "Charles-Meldhine Madi Mnemoi", email = "charlesmeldhine.madimnemoi@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+]
+
+dependencies = [
+    "fastapi>=0.115.13",
+    "uvicorn>=0.34.3",
+]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/cmnemoi/sightcall_transcript_to_tutorial/issues"
+Changelog = "https://github.com/cmnemoi/sightcall_transcript_to_tutorial/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/cmnemoi/sightcall_transcript_to_tutorial/"
+Repository = "https://github.com/cmnemoi/sightcall_transcript_to_tutorial/"
+
+[dependency-groups]
+dev = [
+    "pytest-watcher>=0.4.3",
+    "python-semantic-release>=10.1.0",
+]
+lint = [
+    "mypy>=1.16.1",
+    "pytest-mypy>=1.0.1",
+    "ruff>=0.12.0",
+]
+test = [
+    "pytest>=8.4.1",
+    "pytest-cov>=6.2.1",
+]
+
+[tool.semantic_release]
+version_toml = ["pyproject.toml:project.version"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["sightcall_transcript_to_tutorial"]
