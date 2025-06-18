@@ -1,0 +1,622 @@
+{
+  "timestamp": "2025-02-26T11:48:12Z",
+  "duration_in_ticks": 2311000000,
+  "phrases": [
+    {
+      "offset_milliseconds": 40,
+      "duration_in_ticks": 8400000.0,
+      "display": "Oh yeah, look at that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7670184
+    },
+    {
+      "offset_milliseconds": 1480,
+      "duration_in_ticks": 3200000.0,
+      "display": "There's your.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.47761473
+    },
+    {
+      "offset_milliseconds": 1800,
+      "duration_in_ticks": 43600000.0,
+      "display": "All right, let me, let me, let me mute teams.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.74831694
+    },
+    {
+      "offset_milliseconds": 6240,
+      "duration_in_ticks": 10000000.0,
+      "display": "So it's a massive echo.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6465595
+    },
+    {
+      "offset_milliseconds": 7680,
+      "duration_in_ticks": 27200000.0,
+      "display": "OK, so where do I go?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8544282
+    },
+    {
+      "offset_milliseconds": 11080,
+      "duration_in_ticks": 8400000.0,
+      "display": "Where's the Xbox?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8321948
+    },
+    {
+      "offset_milliseconds": 13640,
+      "duration_in_ticks": 20000000.0,
+      "display": "There's a, there's a good looking Xbox.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7828027
+    },
+    {
+      "offset_milliseconds": 16560,
+      "duration_in_ticks": 20800000.0,
+      "display": "Do you have a there's something I can scan?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8144873
+    },
+    {
+      "offset_milliseconds": 18640,
+      "duration_in_ticks": 43200000.0,
+      "display": "I don't know a barcode maybe?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6656352
+    },
+    {
+      "offset_milliseconds": 23440,
+      "duration_in_ticks": 6400000.0,
+      "display": "Oh yes.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.71122754
+    },
+    {
+      "offset_milliseconds": 31000,
+      "duration_in_ticks": 16000000.0,
+      "display": "Let's try scan.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8779297
+    },
+    {
+      "offset_milliseconds": 33640,
+      "duration_in_ticks": 14000000.0,
+      "display": "I know this scan's the right button.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.5575413
+    },
+    {
+      "offset_milliseconds": 37040,
+      "duration_in_ticks": 77200000.0,
+      "display": "Oh is the text 223147213217?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9321805
+    },
+    {
+      "offset_milliseconds": 46600,
+      "duration_in_ticks": 2800000.0,
+      "display": "Oh no.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7523992
+    },
+    {
+      "offset_milliseconds": 46880,
+      "duration_in_ticks": 2800000.0,
+      "display": "Yeah.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.21258117
+    },
+    {
+      "offset_milliseconds": 47800,
+      "duration_in_ticks": 8000000.0,
+      "display": "Yeah, is it?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.54261893
+    },
+    {
+      "offset_milliseconds": 49600,
+      "duration_in_ticks": 3600000.0,
+      "display": "Yeah.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.71806943
+    },
+    {
+      "offset_milliseconds": 50560,
+      "duration_in_ticks": 66800000.0,
+      "display": "SN 2231472 Like oh, something's happening.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.74417156
+    },
+    {
+      "offset_milliseconds": 58040,
+      "duration_in_ticks": 38000000.0,
+      "display": "I'm scanning it again just to see if it picks up everything now.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.89976597
+    },
+    {
+      "offset_milliseconds": 61840,
+      "duration_in_ticks": 10000000.0,
+      "display": "That was all it picked up.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6955428
+    },
+    {
+      "offset_milliseconds": 66520,
+      "duration_in_ticks": 18000000.0,
+      "display": "OK, I'll take a snapshot.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9540226
+    },
+    {
+      "offset_milliseconds": 73520,
+      "duration_in_ticks": 3200000.0,
+      "display": "OK, I.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.63980925
+    },
+    {
+      "offset_milliseconds": 76040,
+      "duration_in_ticks": 2800000.0,
+      "display": "Don't know.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.67828083
+    },
+    {
+      "offset_milliseconds": 76320,
+      "duration_in_ticks": 13600000.0,
+      "display": "I don't know what that does.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.90141606
+    },
+    {
+      "offset_milliseconds": 78360,
+      "duration_in_ticks": 34000000.0,
+      "display": "Title, barcode, sure.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7015816
+    },
+    {
+      "offset_milliseconds": 82400,
+      "duration_in_ticks": 59200000.0,
+      "display": "Tag All right to be reviewed.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6785564
+    },
+    {
+      "offset_milliseconds": 88840,
+      "duration_in_ticks": 5600000.0,
+      "display": "I don't know.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.52274835
+    },
+    {
+      "offset_milliseconds": 90360,
+      "duration_in_ticks": 13600000.0,
+      "display": "Is this in warranty?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9403779
+    },
+    {
+      "offset_milliseconds": 91720,
+      "duration_in_ticks": 72400000.0,
+      "display": "I have no idea Save I put a massive circle line through it.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.87175566
+    },
+    {
+      "offset_milliseconds": 99080,
+      "duration_in_ticks": 17200000.0,
+      "display": "I've got no idea I'm supposed to do that, but do.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7892516
+    },
+    {
+      "offset_milliseconds": 101920,
+      "duration_in_ticks": 10400000.0,
+      "display": "You need the barcode again.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.634903
+    },
+    {
+      "offset_milliseconds": 102960,
+      "duration_in_ticks": 46400000.0,
+      "display": "Do you need the barcode or We got the, We got the, yeah.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.65252584
+    },
+    {
+      "offset_milliseconds": 108200,
+      "duration_in_ticks": 18800000.0,
+      "display": "I think I got the barcode.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.86715484
+    },
+    {
+      "offset_milliseconds": 111360,
+      "duration_in_ticks": 20800000.0,
+      "display": "Yeah, I think we're good to be reviewed.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9601235
+    },
+    {
+      "offset_milliseconds": 113440,
+      "duration_in_ticks": 11200000.0,
+      "display": "Is this in warranty?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9595864
+    },
+    {
+      "offset_milliseconds": 115120,
+      "duration_in_ticks": 14400000.0,
+      "display": "Spelled warranty wrong, but fine.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.78170997
+    },
+    {
+      "offset_milliseconds": 118320,
+      "duration_in_ticks": 7200000.0,
+      "display": "It's in warranty.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7489748
+    },
+    {
+      "offset_milliseconds": 119640,
+      "duration_in_ticks": 5200000.0,
+      "display": "No, it's not.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8420105
+    },
+    {
+      "offset_milliseconds": 120160,
+      "duration_in_ticks": 8000000.0,
+      "display": "Probably not actually.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7001584
+    },
+    {
+      "offset_milliseconds": 122280,
+      "duration_in_ticks": 4000000.0,
+      "display": "What else?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9682671
+    },
+    {
+      "offset_milliseconds": 122800,
+      "duration_in_ticks": 12400000.0,
+      "display": "What else can we do on here?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9569196
+    },
+    {
+      "offset_milliseconds": 125400,
+      "duration_in_ticks": 27600000.0,
+      "display": "Your your problem seems to be it's not plugged in, that's probably why.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8141583
+    },
+    {
+      "offset_milliseconds": 128240,
+      "duration_in_ticks": 3600000.0,
+      "display": "It's not.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.38449484
+    },
+    {
+      "offset_milliseconds": 131120,
+      "duration_in_ticks": 6000000.0,
+      "display": "Oh, that's great.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.37227833
+    },
+    {
+      "offset_milliseconds": 131720,
+      "duration_in_ticks": 12800000.0,
+      "display": "I'll I'll give that a try.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.70113784
+    },
+    {
+      "offset_milliseconds": 133360,
+      "duration_in_ticks": 67600000.0,
+      "display": "It seems to be missing a power cable which is pretty wild, but maybe try plugging that in.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8961603
+    },
+    {
+      "offset_milliseconds": 141280,
+      "duration_in_ticks": 14400000.0,
+      "display": "Yeah, I will try plugging it in.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8155258
+    },
+    {
+      "offset_milliseconds": 144080,
+      "duration_in_ticks": 8800000.0,
+      "display": "We try plugging it now.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.43686795
+    },
+    {
+      "offset_milliseconds": 146280,
+      "duration_in_ticks": 32000000.0,
+      "display": "Yeah, well, you should probably blow into the port first, just to make sure.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.89567095
+    },
+    {
+      "offset_milliseconds": 149480,
+      "duration_in_ticks": 3600000.0,
+      "display": "There's no.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6616774
+    },
+    {
+      "offset_milliseconds": 149840,
+      "duration_in_ticks": 5200000.0,
+      "display": "OK, Yeah.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6744034
+    },
+    {
+      "offset_milliseconds": 150960,
+      "duration_in_ticks": 16800000.0,
+      "display": "Yeah, yeah, that that old classic.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6663567
+    },
+    {
+      "offset_milliseconds": 157480,
+      "duration_in_ticks": 11200000.0,
+      "display": "I think that should work.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.756493
+    },
+    {
+      "offset_milliseconds": 159040,
+      "duration_in_ticks": 5600000.0,
+      "display": "Yeah, yeah.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6327473
+    },
+    {
+      "offset_milliseconds": 174520,
+      "duration_in_ticks": 12800000.0,
+      "display": "Oh my boy it.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.47136104
+    },
+    {
+      "offset_milliseconds": 176600,
+      "duration_in_ticks": 60400000.0,
+      "display": "Started that's crazy that's see sometimes you just this little bit of dust unfortunately that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.68056446
+    },
+    {
+      "offset_milliseconds": 182640,
+      "duration_in_ticks": 18800000.0,
+      "display": "OK, nice.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.3717494
+    },
+    {
+      "offset_milliseconds": 185120,
+      "duration_in_ticks": 15200000.0,
+      "display": "But it seems to be a great success.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8785398
+    },
+    {
+      "offset_milliseconds": 186640,
+      "duration_in_ticks": 34000000.0,
+      "display": "That cool.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6572182
+    },
+    {
+      "offset_milliseconds": 190800,
+      "duration_in_ticks": 41200000.0,
+      "display": "I don't know if I can check your barcode or anything like that because I'm not very, I'm very new to this.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9375788
+    },
+    {
+      "offset_milliseconds": 196600,
+      "duration_in_ticks": 14000000.0,
+      "display": "I'm going to escalate that basically.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6305497
+    },
+    {
+      "offset_milliseconds": 200960,
+      "duration_in_ticks": 2000000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.51018274
+    },
+    {
+      "offset_milliseconds": 204000,
+      "duration_in_ticks": 4400000.0,
+      "display": "Yeah.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.94798434
+    },
+    {
+      "offset_milliseconds": 204880,
+      "duration_in_ticks": 40000000.0,
+      "display": "So let's any other problems today Sir that I can help you with?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9520731
+    },
+    {
+      "offset_milliseconds": 209800,
+      "duration_in_ticks": 14000000.0,
+      "display": "No, that, that's helped.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6508567
+    },
+    {
+      "offset_milliseconds": 211200,
+      "duration_in_ticks": 3600000.0,
+      "display": "Thanks.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8412424
+    },
+    {
+      "offset_milliseconds": 211560,
+      "duration_in_ticks": 24800000.0,
+      "display": "Yeah, it's, it's on now.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.81715167
+    },
+    {
+      "offset_milliseconds": 215040,
+      "duration_in_ticks": 4800000.0,
+      "display": "Wonderful.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.34236246
+    },
+    {
+      "offset_milliseconds": 215520,
+      "duration_in_ticks": 28800000.0,
+      "display": "Yeah, if it's working, but I think it was.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7877426
+    },
+    {
+      "offset_milliseconds": 218400,
+      "duration_in_ticks": 10000000.0,
+      "display": "Yeah, it was the dust.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9366784
+    },
+    {
+      "offset_milliseconds": 220400,
+      "duration_in_ticks": 9600000.0,
+      "display": "Definitely the dust.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6643197
+    },
+    {
+      "offset_milliseconds": 221720,
+      "duration_in_ticks": 8400000.0,
+      "display": "All right, sweet.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.69344366
+    },
+    {
+      "offset_milliseconds": 223160,
+      "duration_in_ticks": 17600000.0,
+      "display": "Well, that's all I can help you with today, Sir.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.780312
+    },
+    {
+      "offset_milliseconds": 224920,
+      "duration_in_ticks": 13600000.0,
+      "display": "Then enjoy the rest of your day.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.855312
+    },
+    {
+      "offset_milliseconds": 227320,
+      "duration_in_ticks": 6400000.0,
+      "display": "Thank you very much.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9746306
+    },
+    {
+      "offset_milliseconds": 228200,
+      "duration_in_ticks": 3200000.0,
+      "display": "Cheers.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.94993466
+    },
+    {
+      "offset_milliseconds": 229120,
+      "duration_in_ticks": 800000.0,
+      "display": "Bye.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.33498612
+    }
+  ]
+}

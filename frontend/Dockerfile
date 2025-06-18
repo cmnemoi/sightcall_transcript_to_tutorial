@@ -1,14 +1,15 @@
-FROM node:22-alpine
-
-RUN npm install -g pnpm
+FROM node:22
 
 WORKDIR /app
 
-COPY . .
+COPY package*.json ./
 
-RUN pnpm install --frozen-lockfile
+RUN npm install
+
+COPY . .
 
 EXPOSE 3000
 
-CMD ["pnpm", "run", "dev", "--host"]
+USER node
 
+CMD ["npm", "run", "dev", "--host"]

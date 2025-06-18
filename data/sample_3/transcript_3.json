@@ -1,0 +1,686 @@
+{
+  "timestamp": "2025-02-28T21:28:53Z",
+  "duration_in_ticks": 2873399999,
+  "phrases": [
+    {
+      "offset_milliseconds": 1080,
+      "duration_in_ticks": 14400000.0,
+      "display": "Hey, Jonathan, how are you today?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.926048
+    },
+    {
+      "offset_milliseconds": 2920,
+      "duration_in_ticks": 16800000.0,
+      "display": "Hey, I'm well Tom, how are you today?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.78390384
+    },
+    {
+      "offset_milliseconds": 5040,
+      "duration_in_ticks": 11600000.0,
+      "display": "Good, good, good.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.843744
+    },
+    {
+      "offset_milliseconds": 7440,
+      "duration_in_ticks": 39200000.0,
+      "display": "So I understand you have an issue with setting up your Game Boy.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.89544165
+    },
+    {
+      "offset_milliseconds": 11360,
+      "duration_in_ticks": 3600000.0,
+      "display": "What?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.6548375
+    },
+    {
+      "offset_milliseconds": 11760,
+      "duration_in_ticks": 17200000.0,
+      "display": "What can I help you with specifically?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7952154
+    },
+    {
+      "offset_milliseconds": 13720,
+      "duration_in_ticks": 11600000.0,
+      "display": "Yeah, absolutely.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.96317804
+    },
+    {
+      "offset_milliseconds": 14880,
+      "duration_in_ticks": 66800000.0,
+      "display": "So I, you know, I know this is an older model and I have my nephew coming to town to visit.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.93611044
+    },
+    {
+      "offset_milliseconds": 21560,
+      "duration_in_ticks": 46000000.0,
+      "display": "So I wanted to get him set up and, you know, have have something firm to play with.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.85448676
+    },
+    {
+      "offset_milliseconds": 26160,
+      "duration_in_ticks": 62400000.0,
+      "display": "So given that it's an older model, I really wasn't sure how to get this active and how to put the batteries in correctly.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.87316406
+    },
+    {
+      "offset_milliseconds": 32400,
+      "duration_in_ticks": 109200000.0,
+      "display": "So I was wondering if I could share the model number with you and then, you know, maybe have you, you know, just go guide me on what to do appropriately?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.92782307
+    },
+    {
+      "offset_milliseconds": 43640,
+      "duration_in_ticks": 14400000.0,
+      "display": "Yeah, absolutely.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.97109646
+    },
+    {
+      "offset_milliseconds": 45080,
+      "duration_in_ticks": 46400000.0,
+      "display": "So I just took a snapshot and extracted your model number there.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9482063
+    },
+    {
+      "offset_milliseconds": 49720,
+      "duration_in_ticks": 42400000.0,
+      "display": "So it looks like I have that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.94063085
+    },
+    {
+      "offset_milliseconds": 54680,
+      "duration_in_ticks": 1200000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.34697405
+    },
+    {
+      "offset_milliseconds": 55800,
+      "duration_in_ticks": 79200000.0,
+      "display": "So first thing that you're going to want to do there is it looks like you want to take off the battery cover.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8888741
+    },
+    {
+      "offset_milliseconds": 63720,
+      "duration_in_ticks": 20000000.0,
+      "display": "So let's go ahead and take that off.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.967782
+    },
+    {
+      "offset_milliseconds": 66160,
+      "duration_in_ticks": 17600000.0,
+      "display": "Is that this this panel right here?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7684108
+    },
+    {
+      "offset_milliseconds": 68400,
+      "duration_in_ticks": 10000000.0,
+      "display": "It is, yeah.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8654163
+    },
+    {
+      "offset_milliseconds": 69400,
+      "duration_in_ticks": 77600000.0,
+      "display": "So basically right there if you just stick your thumb right there and then here actually let me take a quick snapshot if you don't mind.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.89490694
+    },
+    {
+      "offset_milliseconds": 77480,
+      "duration_in_ticks": 6400000.0,
+      "display": "Perfect.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.80113095
+    },
+    {
+      "offset_milliseconds": 78840,
+      "duration_in_ticks": 75600000.0,
+      "display": "And then basically, if you're looking at my screen, you're going to want to lift, stick your thumb in there and then push that forward.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.91995305
+    },
+    {
+      "offset_milliseconds": 86800,
+      "duration_in_ticks": 30400000.0,
+      "display": "OK, and this is what I'm seeing on my side now.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.87573165
+    },
+    {
+      "offset_milliseconds": 89840,
+      "duration_in_ticks": 12000000.0,
+      "display": "Does does this make sense?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8161952
+    },
+    {
+      "offset_milliseconds": 91520,
+      "duration_in_ticks": 12400000.0,
+      "display": "Yeah, it does, It does.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9050776
+    },
+    {
+      "offset_milliseconds": 93120,
+      "duration_in_ticks": 3200000.0,
+      "display": "OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8911331
+    },
+    {
+      "offset_milliseconds": 93440,
+      "duration_in_ticks": 9200000.0,
+      "display": "It looks like you need.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9202349
+    },
+    {
+      "offset_milliseconds": 94840,
+      "duration_in_ticks": 24000000.0,
+      "display": "Do you have any AAA batteries available it?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.82931244
+    },
+    {
+      "offset_milliseconds": 97240,
+      "duration_in_ticks": 28400000.0,
+      "display": "Looks like Yep I I have these AA's right here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6552733
+    },
+    {
+      "offset_milliseconds": 100080,
+      "duration_in_ticks": 8800000.0,
+      "display": "AA's sorry.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.5301721
+    },
+    {
+      "offset_milliseconds": 100960,
+      "duration_in_ticks": 4800000.0,
+      "display": "Yeah, yeah.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.81538737
+    },
+    {
+      "offset_milliseconds": 101480,
+      "duration_in_ticks": 9600000.0,
+      "display": "No, no, no, you're fine.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.83380073
+    },
+    {
+      "offset_milliseconds": 102440,
+      "duration_in_ticks": 4400000.0,
+      "display": "You're fine.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8920278
+    },
+    {
+      "offset_milliseconds": 103520,
+      "duration_in_ticks": 71600000.0,
+      "display": "So yeah, you're going to want to stick the go ahead and put the AA in that first slot and then stick the second one in there.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8787515
+    },
+    {
+      "offset_milliseconds": 111520,
+      "duration_in_ticks": 3600000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.61181885
+    },
+    {
+      "offset_milliseconds": 112320,
+      "duration_in_ticks": 84400000.0,
+      "display": "In the second slot and then if you want to put your cover back on the put the battery cover back on that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.91789955
+    },
+    {
+      "offset_milliseconds": 121040,
+      "duration_in_ticks": 3200000.0,
+      "display": "Yep.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.23711663
+    },
+    {
+      "offset_milliseconds": 121800,
+      "duration_in_ticks": 8400000.0,
+      "display": "No problem.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8470979
+    },
+    {
+      "offset_milliseconds": 124320,
+      "duration_in_ticks": 12800000.0,
+      "display": "And then let's flip it over.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9624043
+    },
+    {
+      "offset_milliseconds": 125680,
+      "duration_in_ticks": 49200000.0,
+      "display": "Let's flip the the boy over and then go ahead and power the unit on.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8069262
+    },
+    {
+      "offset_milliseconds": 131800,
+      "duration_in_ticks": 23200000.0,
+      "display": "All right, let me just throw a game in here too.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8539589
+    },
+    {
+      "offset_milliseconds": 134800,
+      "duration_in_ticks": 26400000.0,
+      "display": "Make sure everything's working functionally here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8766375
+    },
+    {
+      "offset_milliseconds": 138000,
+      "duration_in_ticks": 22000000.0,
+      "display": "Oh, OK, yeah, point.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7065602
+    },
+    {
+      "offset_milliseconds": 141720,
+      "duration_in_ticks": 6800000.0,
+      "display": "There we go.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7974049
+    },
+    {
+      "offset_milliseconds": 142880,
+      "duration_in_ticks": 20800000.0,
+      "display": "Well, it looks like it's powering on OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8472934
+    },
+    {
+      "offset_milliseconds": 149000,
+      "duration_in_ticks": 19200000.0,
+      "display": "Oh yeah, I could confirm power here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.74009496
+    },
+    {
+      "offset_milliseconds": 152640,
+      "duration_in_ticks": 3600000.0,
+      "display": "OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8985403
+    },
+    {
+      "offset_milliseconds": 153000,
+      "duration_in_ticks": 24000000.0,
+      "display": "It looks like you do have power.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.93096787
+    },
+    {
+      "offset_milliseconds": 156600,
+      "duration_in_ticks": 29600000.0,
+      "display": "Looks like the battery issue was what you needed there.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.93624717
+    },
+    {
+      "offset_milliseconds": 159960,
+      "duration_in_ticks": 15200000.0,
+      "display": "Yeah, yeah, absolutely.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8875866
+    },
+    {
+      "offset_milliseconds": 163320,
+      "duration_in_ticks": 34800000.0,
+      "display": "Yeah, No, everything seems to be functioning appropriately here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.91415125
+    },
+    {
+      "offset_milliseconds": 167080,
+      "duration_in_ticks": 16400000.0,
+      "display": "Any other checks that I should do?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9441237
+    },
+    {
+      "offset_milliseconds": 170800,
+      "duration_in_ticks": 28800000.0,
+      "display": "Let's actually let's start the game.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9610718
+    },
+    {
+      "offset_milliseconds": 173680,
+      "duration_in_ticks": 64000000.0,
+      "display": "Let's see if you can initiate the game and we'll we'll see if there's no issues there, then it looks like you'd be good to go.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8783419
+    },
+    {
+      "offset_milliseconds": 180760,
+      "duration_in_ticks": 27200000.0,
+      "display": "So let's go start that game.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7976824
+    },
+    {
+      "offset_milliseconds": 190960,
+      "duration_in_ticks": 6800000.0,
+      "display": "Perfect.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.2480951
+    },
+    {
+      "offset_milliseconds": 193160,
+      "duration_in_ticks": 16800000.0,
+      "display": "Totally functional it looks like.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8112096
+    },
+    {
+      "offset_milliseconds": 195240,
+      "duration_in_ticks": 15200000.0,
+      "display": "Yeah, it looks like you're working now.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9161837
+    },
+    {
+      "offset_milliseconds": 197160,
+      "duration_in_ticks": 5600000.0,
+      "display": "Yeah.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.88886344
+    },
+    {
+      "offset_milliseconds": 197720,
+      "duration_in_ticks": 41200000.0,
+      "display": "And here's the, this is what the battery's showing me as well, the power.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8339778
+    },
+    {
+      "offset_milliseconds": 201840,
+      "duration_in_ticks": 30400000.0,
+      "display": "So just wanted to confirm that that should look that way.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.87898916
+    },
+    {
+      "offset_milliseconds": 205520,
+      "duration_in_ticks": 49200000.0,
+      "display": "And, and just so you know, if you have like older batteries, it's probably a good idea to replace them.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.86984175
+    },
+    {
+      "offset_milliseconds": 210440,
+      "duration_in_ticks": 24000000.0,
+      "display": "I don't know if those were new batteries or not, but.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9663172
+    },
+    {
+      "offset_milliseconds": 213200,
+      "duration_in_ticks": 60000000.0,
+      "display": "Yeah, I might have had some some trouble on that, but yeah, no, everything seems to be in in working order.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.88729924
+    },
+    {
+      "offset_milliseconds": 219400,
+      "duration_in_ticks": 71600000.0,
+      "display": "Here's the maybe we just want to take one more screenshot of the back just to make sure that I I have everything set up right.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7959871
+    },
+    {
+      "offset_milliseconds": 227000,
+      "duration_in_ticks": 15200000.0,
+      "display": "Yeah, let me go ahead and do that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.96866274
+    },
+    {
+      "offset_milliseconds": 229320,
+      "duration_in_ticks": 5600000.0,
+      "display": "Perfect.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.970103
+    },
+    {
+      "offset_milliseconds": 230920,
+      "duration_in_ticks": 18800000.0,
+      "display": "That's a nice high definition picture here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.84830827
+    },
+    {
+      "offset_milliseconds": 235680,
+      "duration_in_ticks": 59200000.0,
+      "display": "Yeah, Game, I'm just adding some notes here.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8030271
+    },
+    {
+      "offset_milliseconds": 241600,
+      "duration_in_ticks": 104000000.0,
+      "display": "So Game Boy required battery replacement.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.5378629
+    },
+    {
+      "offset_milliseconds": 254040,
+      "duration_in_ticks": 1200000.0,
+      "display": "OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.23504554
+    },
+    {
+      "offset_milliseconds": 254160,
+      "duration_in_ticks": 30800000.0,
+      "display": "All right, John, looks like everything is working.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8267458
+    },
+    {
+      "offset_milliseconds": 257800,
+      "duration_in_ticks": 21600000.0,
+      "display": "Looks like the Game Boy is up.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.68323207
+    },
+    {
+      "offset_milliseconds": 259960,
+      "duration_in_ticks": 26400000.0,
+      "display": "Is there anything else I can do for you today?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.97068435
+    },
+    {
+      "offset_milliseconds": 262960,
+      "duration_in_ticks": 20000000.0,
+      "display": "No, I think that's everything I needed.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9474595
+    },
+    {
+      "offset_milliseconds": 264960,
+      "duration_in_ticks": 40800000.0,
+      "display": "My my nephew should be in good shape now when he when he comes to visit.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9294937
+    },
+    {
+      "offset_milliseconds": 270560,
+      "duration_in_ticks": 2800000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.35621226
+    },
+    {
+      "offset_milliseconds": 270840,
+      "duration_in_ticks": 6000000.0,
+      "display": "Very good.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9631859
+    },
+    {
+      "offset_milliseconds": 271720,
+      "duration_in_ticks": 58800000.0,
+      "display": "If you need anything else, please feel free to call us back at Nintendo and we'll be happy to help you with anything that you might need.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.95494086
+    },
+    {
+      "offset_milliseconds": 278040,
+      "duration_in_ticks": 6800000.0,
+      "display": "Fantastic.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9321795
+    },
+    {
+      "offset_milliseconds": 278720,
+      "duration_in_ticks": 35600000.0,
+      "display": "I appreciate the help Tom, and I'll be sure to give you a 5 star review here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.93782806
+    },
+    {
+      "offset_milliseconds": 283160,
+      "duration_in_ticks": 4400000.0,
+      "display": "Perfect.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.94306624
+    },
+    {
+      "offset_milliseconds": 283600,
+      "duration_in_ticks": 9200000.0,
+      "display": "I appreciate that.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9250519
+    },
+    {
+      "offset_milliseconds": 284840,
+      "duration_in_ticks": 2400000.0,
+      "display": "Thanks.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.31600252
+    },
+    {
+      "offset_milliseconds": 286280,
+      "duration_in_ticks": 4000000.0,
+      "display": "Bye now.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7531775
+    }
+  ]
+}

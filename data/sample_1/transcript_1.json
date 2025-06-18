@@ -1,0 +1,702 @@
+{
+  "timestamp": "2025-02-26T20:36:06Z",
+  "duration_in_ticks": 4216800000,
+  "phrases": [
+    {
+      "offset_milliseconds": 10920,
+      "duration_in_ticks": 16800000.0,
+      "display": "Hello, thanks for calling in today.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.95266676
+    },
+    {
+      "offset_milliseconds": 12600,
+      "duration_in_ticks": 8800000.0,
+      "display": "How can I help you?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9780294
+    },
+    {
+      "offset_milliseconds": 15040,
+      "duration_in_ticks": 109600000.0,
+      "display": "Hey call you today because I I have a problem with my new bike and it comes from the the derailer.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7092554
+    },
+    {
+      "offset_milliseconds": 27720,
+      "duration_in_ticks": 69600000.0,
+      "display": "When I ride, it's always kind of noisy, as if I was in between two gears.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8690766
+    },
+    {
+      "offset_milliseconds": 35640,
+      "duration_in_ticks": 21600000.0,
+      "display": "Do you have to get like some rattling in the back?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.57118416
+    },
+    {
+      "offset_milliseconds": 38520,
+      "duration_in_ticks": 10000000.0,
+      "display": "Yep, exactly.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.46640936
+    },
+    {
+      "offset_milliseconds": 40040,
+      "duration_in_ticks": 4800000.0,
+      "display": "OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.92089736
+    },
+    {
+      "offset_milliseconds": 40600,
+      "duration_in_ticks": 5200000.0,
+      "display": "OK.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8579243
+    },
+    {
+      "offset_milliseconds": 41280,
+      "duration_in_ticks": 41600000.0,
+      "display": "Well it sounds like that could be an issue with your derailer.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9128551
+    },
+    {
+      "offset_milliseconds": 46200,
+      "duration_in_ticks": 3600000.0,
+      "display": "Question.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9532853
+    },
+    {
+      "offset_milliseconds": 46560,
+      "duration_in_ticks": 36800000.0,
+      "display": "Do you have a a bike stand that you can set this on so we can work on the derailer?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8932119
+    },
+    {
+      "offset_milliseconds": 51600,
+      "duration_in_ticks": 16000000.0,
+      "display": "Well, no, not here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.87865347
+    },
+    {
+      "offset_milliseconds": 53200,
+      "duration_in_ticks": 24800000.0,
+      "display": "I'm I'm in the office, so OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.77747566
+    },
+    {
+      "offset_milliseconds": 55960,
+      "duration_in_ticks": 11600000.0,
+      "display": "Not not a problem.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.71148574
+    },
+    {
+      "offset_milliseconds": 57440,
+      "duration_in_ticks": 65200000.0,
+      "display": "If you could, if you don't mind, just flip your bike upside down and set it on the handlebars and the seat and that way that'll give us better access.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.90698147
+    },
+    {
+      "offset_milliseconds": 64400,
+      "duration_in_ticks": 12800000.0,
+      "display": "OK, let me do that.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.87547296
+    },
+    {
+      "offset_milliseconds": 81400,
+      "duration_in_ticks": 4400000.0,
+      "display": "There we go.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.75445884
+    },
+    {
+      "offset_milliseconds": 82320,
+      "duration_in_ticks": 12800000.0,
+      "display": "OK, perfect.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.91726756
+    },
+    {
+      "offset_milliseconds": 83600,
+      "duration_in_ticks": 41200000.0,
+      "display": "Now, if you don't mind, can we we get a little closer to the derailer?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9199094
+    },
+    {
+      "offset_milliseconds": 87720,
+      "duration_in_ticks": 18800000.0,
+      "display": "I can show you where we're going to look.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9557108
+    },
+    {
+      "offset_milliseconds": 90600,
+      "duration_in_ticks": 117200000.0,
+      "display": "So let me just zoom in a tiny little bit here and if you notice on the derailleur, there should be two tiny little screws in this general vicinity here.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9279335
+    },
+    {
+      "offset_milliseconds": 103720,
+      "duration_in_ticks": 8000000.0,
+      "display": "Here on this side.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.5645849
+    },
+    {
+      "offset_milliseconds": 104840,
+      "duration_in_ticks": 4400000.0,
+      "display": "Oh, OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6079316
+    },
+    {
+      "offset_milliseconds": 105280,
+      "duration_in_ticks": 9600000.0,
+      "display": "This one, there we go.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.5078385
+    },
+    {
+      "offset_milliseconds": 106360,
+      "duration_in_ticks": 20800000.0,
+      "display": "These these two screws here exactly.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8155448
+    },
+    {
+      "offset_milliseconds": 108440,
+      "duration_in_ticks": 10800000.0,
+      "display": "OK, so.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.4151582
+    },
+    {
+      "offset_milliseconds": 109520,
+      "duration_in_ticks": 96000000.0,
+      "display": "What we're going to try to do is we're going to try to adjust the orientation of that derailleur to align with the the the cassette of your gears.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.90586823
+    },
+    {
+      "offset_milliseconds": 119360,
+      "duration_in_ticks": 34400000.0,
+      "display": "So yeah, if you turn to the angle just a little bit, perfect.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.92540926
+    },
+    {
+      "offset_milliseconds": 123440,
+      "duration_in_ticks": 8000000.0,
+      "display": "So OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.5704683
+    },
+    {
+      "offset_milliseconds": 124440,
+      "duration_in_ticks": 48800000.0,
+      "display": "Let's let's take a look at the the screw that's closest to the inside.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.92583257
+    },
+    {
+      "offset_milliseconds": 130040,
+      "duration_in_ticks": 4000000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.55873936
+    },
+    {
+      "offset_milliseconds": 131040,
+      "duration_in_ticks": 44400000.0,
+      "display": "And if we turn that, do we see the orientation of that derailer change at all?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8847355
+    },
+    {
+      "offset_milliseconds": 136800,
+      "duration_in_ticks": 145200000.0,
+      "display": "Let me take some tools here or as it is, but let's figure this out.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.766747
+    },
+    {
+      "offset_milliseconds": 180960,
+      "duration_in_ticks": 8800000.0,
+      "display": "It's the other one then.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7671846
+    },
+    {
+      "offset_milliseconds": 182560,
+      "duration_in_ticks": 3600000.0,
+      "display": "Hope so.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.5564085
+    },
+    {
+      "offset_milliseconds": 184640,
+      "duration_in_ticks": 10400000.0,
+      "display": "It's always tricky I.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7061853
+    },
+    {
+      "offset_milliseconds": 187880,
+      "duration_in_ticks": 2400000.0,
+      "display": "Got to.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.38157332
+    },
+    {
+      "offset_milliseconds": 188320,
+      "duration_in_ticks": 22400000.0,
+      "display": "Make sure we have the right size Allen wrench.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8134987
+    },
+    {
+      "offset_milliseconds": 192400,
+      "duration_in_ticks": 54000000.0,
+      "display": "Well, it seems that I do not because this one is too big and the other one is too sweet.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8365147
+    },
+    {
+      "offset_milliseconds": 200360,
+      "duration_in_ticks": 47600000.0,
+      "display": "Oh shoot, let me check if I have another one in the box.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7409056
+    },
+    {
+      "offset_milliseconds": 205120,
+      "duration_in_ticks": 9200000.0,
+      "display": "Do you Do you have a minute?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.65475136
+    },
+    {
+      "offset_milliseconds": 207040,
+      "duration_in_ticks": 10400000.0,
+      "display": "I do, absolutely.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.93069345
+    },
+    {
+      "offset_milliseconds": 209320,
+      "duration_in_ticks": 3200000.0,
+      "display": "Thank you.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7707703
+    },
+    {
+      "offset_milliseconds": 227080,
+      "duration_in_ticks": 3200000.0,
+      "display": "Once.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.20033695
+    },
+    {
+      "offset_milliseconds": 262720,
+      "duration_in_ticks": 4800000.0,
+      "display": "Interesting.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.10736673
+    },
+    {
+      "offset_milliseconds": 265400,
+      "duration_in_ticks": 6800000.0,
+      "display": "Too big?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.56859756
+    },
+    {
+      "offset_milliseconds": 280270,
+      "duration_in_ticks": 23600000.0,
+      "display": "Oh, actually, you know what?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.83705413
+    },
+    {
+      "offset_milliseconds": 290670,
+      "duration_in_ticks": 33300000.0,
+      "display": "OK, actually this one works all right.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7018516
+    },
+    {
+      "offset_milliseconds": 294280,
+      "duration_in_ticks": 11200000.0,
+      "display": "OK, perfect.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.82315004
+    },
+    {
+      "offset_milliseconds": 295400,
+      "duration_in_ticks": 14800000.0,
+      "display": "So we got the right size.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.94340163
+    },
+    {
+      "offset_milliseconds": 296880,
+      "duration_in_ticks": 94800000.0,
+      "display": "OK, now you'll notice when you twist your Allen wrench either clockwise or counterclockwise, the alignment of that derailer does change slightly.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9066983
+    },
+    {
+      "offset_milliseconds": 307000,
+      "duration_in_ticks": 29200000.0,
+      "display": "Oh yeah, I see this one moving very slightly.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9292636
+    },
+    {
+      "offset_milliseconds": 310200,
+      "duration_in_ticks": 11200000.0,
+      "display": "Exactly right.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.95103645
+    },
+    {
+      "offset_milliseconds": 311320,
+      "duration_in_ticks": 64400000.0,
+      "display": "So do your best to align that as as parallel as possible to your gear cassettes.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.94057244
+    },
+    {
+      "offset_milliseconds": 318080,
+      "duration_in_ticks": 28400000.0,
+      "display": "So you want them exactly straight in a line?",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.5755052
+    },
+    {
+      "offset_milliseconds": 321000,
+      "duration_in_ticks": 4400000.0,
+      "display": "Looks like it.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.443184
+    },
+    {
+      "offset_milliseconds": 321520,
+      "duration_in_ticks": 2400000.0,
+      "display": "Let's.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.15858139
+    },
+    {
+      "offset_milliseconds": 321760,
+      "duration_in_ticks": 7600000.0,
+      "display": "See how it goes?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6066776
+    },
+    {
+      "offset_milliseconds": 322520,
+      "duration_in_ticks": 14000000.0,
+      "display": "Because I I've done it.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7574198
+    },
+    {
+      "offset_milliseconds": 326080,
+      "duration_in_ticks": 36800000.0,
+      "display": "See you still hear this small noise here.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.80319774
+    },
+    {
+      "offset_milliseconds": 330400,
+      "duration_in_ticks": 4000000.0,
+      "display": "Yes.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.85894454
+    },
+    {
+      "offset_milliseconds": 330800,
+      "duration_in_ticks": 39600000.0,
+      "display": "So I think we just need to adjust it just a tiny little bit more.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9638345
+    },
+    {
+      "offset_milliseconds": 345720,
+      "duration_in_ticks": 2400000.0,
+      "display": "Bitte.",
+      "speaker": 2,
+      "locale": "de-DE",
+      "confidence": 0.32324037
+    },
+    {
+      "offset_milliseconds": 360880,
+      "duration_in_ticks": 9600000.0,
+      "display": "Hey, it's not bad now.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.81023574
+    },
+    {
+      "offset_milliseconds": 363280,
+      "duration_in_ticks": 11600000.0,
+      "display": "All right, Yeah, I.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.68085897
+    },
+    {
+      "offset_milliseconds": 364640,
+      "duration_in_ticks": 60400000.0,
+      "display": "I think I'll I'll give it a shot and now I know how to do it anyway saver.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.7573203
+    },
+    {
+      "offset_milliseconds": 370680,
+      "duration_in_ticks": 41200000.0,
+      "display": "I need more adjustment and I'd play with this with this one.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6532875
+    },
+    {
+      "offset_milliseconds": 374800,
+      "duration_in_ticks": 12400000.0,
+      "display": "Screw just just.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.55974066
+    },
+    {
+      "offset_milliseconds": 376040,
+      "duration_in_ticks": 2800000.0,
+      "display": "For.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7983229
+    },
+    {
+      "offset_milliseconds": 377000,
+      "duration_in_ticks": 8800000.0,
+      "display": "Me to know what?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9679037
+    },
+    {
+      "offset_milliseconds": 378000,
+      "duration_in_ticks": 8400000.0,
+      "display": "What's the other one?",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8621173
+    },
+    {
+      "offset_milliseconds": 379520,
+      "duration_in_ticks": 84800000.0,
+      "display": "So it's it's a very similar function, but rather than moving the derailleur left and right, it'll actually move it up and down.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8782461
+    },
+    {
+      "offset_milliseconds": 388280,
+      "duration_in_ticks": 38800000.0,
+      "display": "So that'll that'll affect how much tension you need when you're changing gears.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8838837
+    },
+    {
+      "offset_milliseconds": 393160,
+      "duration_in_ticks": 3600000.0,
+      "display": "OK.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.46095404
+    },
+    {
+      "offset_milliseconds": 394120,
+      "duration_in_ticks": 8400000.0,
+      "display": "That's a slight.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.7660976
+    },
+    {
+      "offset_milliseconds": 395120,
+      "duration_in_ticks": 80800000.0,
+      "display": "It's similar, but what with the noise that you're experiencing, it's typically out of alignment on the on the left or right.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8972744
+    },
+    {
+      "offset_milliseconds": 403800,
+      "duration_in_ticks": 42800000.0,
+      "display": "And so you want to try to keep it as straight as possible aligned with that that gear shift.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.9159858
+    },
+    {
+      "offset_milliseconds": 409280,
+      "duration_in_ticks": 4400000.0,
+      "display": "Excellent.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.9340482
+    },
+    {
+      "offset_milliseconds": 410200,
+      "duration_in_ticks": 4000000.0,
+      "display": "All right.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.6626973
+    },
+    {
+      "offset_milliseconds": 410960,
+      "duration_in_ticks": 8000000.0,
+      "display": "Thank you very much.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.97952753
+    },
+    {
+      "offset_milliseconds": 412200,
+      "duration_in_ticks": 27600000.0,
+      "display": "OK, well hope that helps and I hope you enjoy your ride.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.8685959
+    },
+    {
+      "offset_milliseconds": 415680,
+      "duration_in_ticks": 2400000.0,
+      "display": "It does.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.8118062
+    },
+    {
+      "offset_milliseconds": 416240,
+      "duration_in_ticks": 6000000.0,
+      "display": "Thank you.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.97366995
+    },
+    {
+      "offset_milliseconds": 416840,
+      "duration_in_ticks": 800000.0,
+      "display": "Bye.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.82664204
+    },
+    {
+      "offset_milliseconds": 417160,
+      "duration_in_ticks": 2000000.0,
+      "display": "Bye.",
+      "speaker": 2,
+      "locale": "en-US",
+      "confidence": 0.803547
+    },
+    {
+      "offset_milliseconds": 417360,
+      "duration_in_ticks": 9600000.0,
+      "display": "OK, take care.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.81909424
+    },
+    {
+      "offset_milliseconds": 418360,
+      "duration_in_ticks": 2000000.0,
+      "display": "Bye bye.",
+      "speaker": 1,
+      "locale": "en-US",
+      "confidence": 0.76980615
+    }
+  ]
+}

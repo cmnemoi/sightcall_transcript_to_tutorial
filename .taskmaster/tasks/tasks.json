@@ -1,0 +1,144 @@
+{
+  "master": {
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Setup Database Schema with Clean Architecture",
+        "description": "Create PostgreSQL database schema with domain entities, repository interfaces, and infrastructure implementations",
+        "status": "done",
+        "dependencies": [],
+        "priority": "high",
+        "details": "Domain layer: Define core entities (User, Transcript, Tutorial) with value objects and business rules in domain/entities/. Define repository interfaces in domain/repositories/ (IUserRepository, ITranscriptRepository, ITutorialRepository). Create value objects in domain/value_objects/ and domain exceptions in domain/exceptions/. Infrastructure layer: Implement SQLAlchemy models in infrastructure/for_production/repositories/ mapping to domain entities. Create repository implementations following the existing pattern. Setup alembic migrations. Configure database connection in domain/config.py with environment variables for PostgreSQL connection string. Use Docker Compose to spin up PostgreSQL container.",
+        "testStrategy": "Start with domain entity tests using TDD approach. Write failing tests for entity validation and business rules. For repositories, create in-memory fake implementations in infrastructure/for_tests/repositories/. Write integration tests using testcontainers to verify actual database operations. Follow Given-When-Then pattern for all tests. Test repository implementations against their interfaces to ensure proper abstraction.",
+        "subtasks": []
+      },
+      {
+        "id": 2,
+        "title": "Implement GitHub OAuth 2.0 Authentication with Clean Architecture",
+        "description": "Create authentication system with domain services, application commands/queries, and infrastructure integration",
+        "status": "done",
+        "dependencies": [
+          1
+        ],
+        "priority": "high",
+        "details": "Domain layer: Define AuthUser entity in domain/entities/ and IAuthService interface in domain/repositories/. Application layer: Create LoginCommand in application/commands/ and AuthenticateUserQuery in application/queries/ following CQRS pattern. Infrastructure layer: Implement GitHubAuthService in infrastructure/for_production/gateways/. Presentation layer: Create auth router in presentation/api/routers/ with routes: /auth/github/login, /auth/github/callback. Create request/response schemas in presentation/api/schemas/. Use python-jose for JWT creation in infrastructure/for_production/gateways/. Store GitHub user data (id, username, email) using UserRepository. Implement JWT middleware in presentation/api/.",
+        "testStrategy": "Start with TDD for domain authentication logic. Write failing tests for AuthenticateUserQuery with fake repositories in infrastructure/for_tests/repositories/. Create GitHubAuthServiceFake in infrastructure/for_tests/gateways/ for testing without external dependencies. Test JWT token generation/validation in isolation. Integration tests for the complete authentication flow with mocked GitHub responses. Test protected route access with valid/invalid tokens.",
+        "subtasks": []
+      },
+      {
+        "id": 3,
+        "title": "Create Transcript Upload API with Clean Architecture",
+        "description": "Implement transcript upload functionality with proper layer separation and validation",
+        "status": "done",
+        "dependencies": [
+          1,
+          2
+        ],
+        "priority": "high",
+        "details": "Domain layer: Enhance Transcript entity in domain/entities/ with validation rules. Application layer: Create UploadTranscriptCommand in application/commands/ following CQRS pattern. Infrastructure layer: Implement file storage service in infrastructure/for_production/gateways/. Presentation layer: Create transcripts router in presentation/api/routers/ with POST /transcripts endpoint accepting multipart form data. Implement request/response schemas in presentation/api/schemas/ using Pydantic. Parse and store transcript using the application command handler.",
+        "testStrategy": "Start with TDD for domain transcript validation. Write failing tests for UploadTranscriptCommand with fake repositories in infrastructure/for_tests/repositories/. Test file validation logic in isolation. Create integration tests for the complete upload flow. Test with valid/invalid JSON schemas following Given-When-Then pattern. Verify transcript storage through repository interfaces. Test authentication requirements and video URL format validation.",
+        "subtasks": []
+      },
+      {
+        "id": 4,
+        "title": "Develop AI Tutorial Generation with Clean Architecture",
+        "description": "Create OpenAI integration with domain services, application commands/queries, and infrastructure implementation",
+        "status": "done",
+        "dependencies": [
+          1
+        ],
+        "priority": "high",
+        "details": "Domain layer: Define ITutorialGenerationService interface in domain/repositories/. Application layer: Create GenerateTutorialCommand in application/commands/ following CQRS pattern. Infrastructure layer: Implement OpenAITutorialService in infrastructure/for_production/gateways/ using OpenAI Python SDK. Create service configuration in domain/config/. Implement token optimization and error handling for API failures. Define proper schemas in presentation/api/schemas/ for data transfer between layers.",
+        "testStrategy": "Start with TDD for tutorial generation command. Write failing tests for GenerateTutorialCommand with fake tutorial generation service in infrastructure/for_tests/gateways/. Create OpenAITutorialServiceFake for testing without external API calls. Write unit tests for token optimization logic. Create integration tests with real API using test transcripts. Validate tutorial structure and content quality. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      },
+      {
+        "id": 5,
+        "title": "Create Tutorial Processing with Clean Architecture",
+        "description": "Implement tutorial processing with proper separation of concerns and async handling",
+        "status": "pending",
+        "dependencies": [
+          3,
+          4
+        ],
+        "priority": "high",
+        "details": "Domain layer: Enhance Tutorial entity in domain/entities/ with processing status. Application layer: Create ProcessTranscriptCommand in application/commands/ following CQRS pattern. Infrastructure layer: Implement background task handling in infrastructure/for_production/gateways/. Presentation layer: Add endpoint to transcripts router in presentation/api/routers/ for POST /transcripts/{transcript_id}/process. Create appropriate schemas in presentation/api/schemas/. Implement async processing to handle long-running AI calls. Return tutorial_id and processing status through appropriate response schemas.",
+        "testStrategy": "Start with TDD for tutorial processing command. Write failing tests for ProcessTranscriptCommand with fake repositories and services in infrastructure/for_tests/. Test the complete processing flow in isolation. Create integration tests for the API endpoint. Test error handling for AI service failures. Validate async processing behavior. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      },
+      {
+        "id": 6,
+        "title": "Implement Tutorial CRUD with Clean Architecture",
+        "description": "Create tutorial management functionality with proper layer separation",
+        "status": "done",
+        "dependencies": [
+          5
+        ],
+        "priority": "medium",
+        "details": "Domain layer: Enhance Tutorial entity in domain/entities/ with update methods and validation. Application layer: Create GetTutorialsQuery, GetTutorialByIdQuery in application/queries/ and UpdateTutorialCommand in application/commands/ following CQRS pattern. Presentation layer: Create tutorials router in presentation/api/routers/ with GET /tutorials, GET /tutorials/{tutorial_id}, PATCH /tutorials/{tutorial_id}. Create request/response schemas in presentation/api/schemas/. Implement user ownership validation in domain layer. Support filtering by creation date and search by title in query handlers.",
+        "testStrategy": "Start with TDD for tutorial domain logic. Write failing tests for CRUD commands/queries with fake repositories in infrastructure/for_tests/repositories/. Test user authorization rules in isolation. Create integration tests for API endpoints. Test pagination and filtering logic. Validate input sanitization for updates. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      },
+      {
+        "id": 7,
+        "title": "Build React Frontend Authentication with Feature-Based Architecture",
+        "description": "✅ COMPLETED: React frontend authentication with GitHub OAuth flow and feature-based architecture. All components, hooks, and routing implemented with comprehensive test coverage.",
+        "status": "done",
+        "dependencies": [
+          2
+        ],
+        "priority": "high",
+        "details": "✅ COMPLETED IMPLEMENTATION: Created complete authentication feature in src/features/authentication/ with proper feature separation. Smart components: LoginPage, AuthCallback, ProtectedRoute in src/features/authentication/components/smart/ for data handling and business logic. Dumb components: LoginButton, AuthStatus in src/features/authentication/components/dumb/ for pure presentation. Feature hooks: useAuthCallback in src/features/authentication/hooks/ for authentication logic. Types: Complete authentication interfaces in src/features/authentication/types/. AuthContext for centralized state management. Token storage utilities for JWT handling. GitHub OAuth flow with login redirect to /auth/github/login and callback processing. Protected routes using React Router with authentication guards. 39 passing tests with TDD approach and Given-When-Then pattern.",
+        "testStrategy": "✅ COMPLETED: Implemented comprehensive TDD approach with 39 passing tests. Used Given-When-Then pattern for all test cases. Created handwritten fakes and mocks for testing without external dependencies. Tested complete OAuth flow with mocked API responses. Verified token storage and retrieval in isolation. Tested protected route access with valid/invalid auth states. Focused on testing smart components and hooks with full coverage of authentication functionality.",
+        "subtasks": []
+      },
+      {
+        "id": 8,
+        "title": "Create Transcript Upload UI with Feature-Based Architecture",
+        "description": "Build React component for transcript upload with proper feature separation",
+        "status": "done",
+        "dependencies": [
+          7,
+          3
+        ],
+        "priority": "medium",
+        "details": "Create transcripts feature in src/features/transcripts/. Smart components: Create UploadPage, UploadForm in src/features/transcripts/components/smart/ for data handling and business logic. Dumb components: Create FileDropzone, UploadProgress, VideoUrlInput in src/features/transcripts/components/dumb/ for pure presentation. Feature hooks: Implement useTranscriptUpload, useUploadProgress in src/features/transcripts/hooks/ for upload logic. Types: Define transcript interfaces in src/features/transcripts/types/. Implement drag-and-drop file upload using react-dropzone. Add video URL input field. Implement file validation for JSON format. Show upload progress and processing status. Use Tailwind CSS for styling following Tailwind UI file upload patterns. Display success/error messages and redirect to tutorial view on completion.",
+        "testStrategy": "Start with TDD for upload hooks and smart components. Write failing tests for upload services and hooks. Test file validation logic in isolation. Create integration tests for the complete upload flow with mocked API. Test form validation and error handling. Verify success/error states and redirects. Focus on testing smart components and business logic rather than dumb components. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      },
+      {
+        "id": 9,
+        "title": "Build Tutorial Management Dashboard with Feature-Based Architecture",
+        "description": "Create React components for tutorial management with proper feature separation",
+        "status": "pending",
+        "dependencies": [
+          7,
+          6
+        ],
+        "priority": "medium",
+        "details": "Create tutorials feature in src/features/tutorials/. Smart components: Create TutorialDashboard, TutorialEditor in src/features/tutorials/components/smart/ for data handling and business logic. Dumb components: Create TutorialList, TutorialCard, TutorialView, MarkdownEditor in src/features/tutorials/components/dumb/ for pure presentation. Feature hooks: Implement useTutorials, useTutorial, useTutorialEdit in src/features/tutorials/hooks/ for tutorial management logic. Types: Define tutorial interfaces in src/features/tutorials/types/. Display user's tutorials in a table/grid with pagination. Implement Markdown editor (react-md-editor). Add save functionality calling PATCH API. Use Tailwind CSS for responsive design. Include loading states and error handling.",
+        "testStrategy": "Start with TDD for tutorial management hooks and smart components. Write failing tests for tutorial services and hooks. Test pagination logic in isolation. Create integration tests for the complete tutorial management flow with mocked API. Test Markdown rendering and editing functionality. Verify save operations and error handling. Focus on testing smart components and business logic rather than dumb components. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      },
+      {
+        "id": 10,
+        "title": "Implement Error Handling with Clean Architecture",
+        "description": "Add comprehensive error handling across all application layers",
+        "status": "pending",
+        "dependencies": [
+          8,
+          9
+        ],
+        "priority": "medium",
+        "details": "Backend: Define domain-specific exceptions in domain/exceptions/. Implement error handling in application commands/queries with proper exception mapping. Create error logging service in infrastructure/for_production/gateways/ and HTTP error handling utilities. Enhance error responses in presentation/api/routers/ with proper HTTP status codes and error messages using presentation/api/schemas/. Frontend: Implement global error boundary in React app. Create error handling utilities as shared components outside feature folders. Add loading spinners for async operations in each feature's smart components. Create error toast notifications using react-hot-toast. Implement form validation with proper error messages in feature-specific hooks. Add retry mechanisms for failed API calls in feature hooks.",
+        "testStrategy": "Start with TDD for error handling logic in both backend and frontend. Write failing tests for error scenarios in each layer. Test domain exceptions and their mapping to application errors. Create integration tests for API error responses. Test frontend error handling with mocked error states in feature hooks. Verify loading states during async operations. Test error recovery mechanisms and retry logic. Follow Given-When-Then pattern for all tests.",
+        "subtasks": []
+      }
+    ],
+    "metadata": {
+      "created": "2025-06-21T21:16:35.485Z",
+      "updated": "2025-06-22T15:54:31.441Z",
+      "description": "Tasks for master context"
+    }
+  }
+}

@@ -2,5 +2,5 @@
 
 set -e
 
-git clone https://github.com/cmnemoi/sightcall_transcipt_to_tutorial.git && cd sightcall_transcipt_to_tutorial
+git clone https://github.com/cmnemoi/sightcall_transcript_to_tutorial.git && cd sightcall_transcipt_to_tutorial
 make

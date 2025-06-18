@@ -5,7 +5,8 @@ all: setup-git-hooks
 
 .PHONY: build-and-run
 build-and-run:
-	docker compose up --build
+	docker compose build --no-cache
+	docker compose up --watch
 
 check:
 	$(MAKE) -C backend check
@@ -19,7 +20,7 @@ lint:
 
 .PHONY: run
 run:
-	docker compose up -d
+	docker compose up --watch
 
 .PHONY: semantic-release
 semantic-release:

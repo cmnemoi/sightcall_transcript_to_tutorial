@@ -1,4 +1,5 @@
-all: setup-env-variables install test
+.PHONY: all
+all: install lint test
 
 .PHONY: install
 install:
@@ -6,12 +7,8 @@ install:
 
 .PHONY: lint
 lint:
-	npm lint
+	npm run lint
 
 .PHONY: test
 test:
-	npm test
-
-.PHONY: setup-env-variables
-setup-env-variables:
-	cp .env.example .env
+	npm run test

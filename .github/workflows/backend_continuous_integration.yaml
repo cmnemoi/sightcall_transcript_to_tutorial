@@ -32,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: ".python-version"
+          python-version-file: "backend/.python-version"
       - name: Install dependencies
         run: uv sync --locked --no-group dev --group lint
       - name: Check code format with Ruff
@@ -48,6 +48,15 @@ jobs:
     defaults:
       run:
         working-directory: ./backend
+    env:
+      GITHUB_CALLBACK_URL: ${{ secrets.GH_CALLBACK_URL }}
+      GITHUB_CLIENT_ID: ${{ secrets.GH_CLIENT_ID }}
+      GITHUB_CLIENT_SECRET: ${{ secrets.GH_CLIENT_SECRET }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      FRONTEND_URL: ${{ vars.FRONTEND_URL }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      JWT_SECRET: ${{ secrets.JWT_SECRET }}
+      JWT_ALGORITHM: ${{ secrets.JWT_ALGORITHM }}
 
     steps:
       - uses: actions/checkout@v4
@@ -61,7 +70,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version-file: ".python-version"
+          python-version-file: "backend/.python-version"
       - name: Install dependencies
         run: uv sync --locked --no-group dev --group test
       - name: Run tests with pytest

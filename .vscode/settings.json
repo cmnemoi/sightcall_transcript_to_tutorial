@@ -9,7 +9,7 @@
     "python.analysis.autoImportCompletions": true,
     "python.languageServer": "Pylance",
     "python.testing.pytestArgs": [
-        "tests"
+        "backend/tests"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
@@ -17,8 +17,15 @@
         {
             "splitTerminals": [
                 {
+                    "name": "root",
+                },
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
                     "name": "backend",
-                    "commands": ["cd backend"]
+                    "commands": ["cd backend", "clear"]
                 },
             ]
         },
@@ -26,7 +33,7 @@
             "splitTerminals": [
                 {
                     "name": "frontend",
-                    "commands": ["cd frontend"]
+                    "commands": ["cd frontend", "clear"]
                 },
             ]
         },
@@ -34,7 +41,7 @@
             "splitTerminals": [
                 {
                     "name": "backend tests",
-                    "commands": ["cd backend", "uv run ptw . --clear --now"]
+                    "commands": ["cd backend", "uv run ptw . --clear --now -vv tests/unit tests/integration tests/e2e -m \"not slow\""]
                 },
             ]
         },
@@ -50,9 +57,21 @@
             "splitTerminals": [
                 {
                     "name": "watch",
-                    "commands": ["docker compose up"]
+                    "commands": ["docker compose up --watch"]
                 },
             ]
+        }
+    ],
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "local",
+            "database": "appdb",
+            "username": "user",
+            "password": "password"
         }
     ]
 }

@@ -1,0 +1,99 @@
+# Overview  
+Build an AI-powered platform that transforms real-world customer support conversations (voice/video transcripts + recordings) into concise, step-by-step tutorials. The system targets support & knowledge-management teams who need to document troubleshooting procedures quickly and accurately. Automating tutorial creation reduces manual effort, ensures consistency, and accelerates knowledge sharing across the organization.
+
+# Core Features  
+1. **GitHub OAuth 2.0 Authentication**  
+   - Secure portal access via users' GitHub accounts.  
+   - Stores GitHub user data for associating tutorials with creators.
+
+2. **Transcript & Recording Intake**  
+   - Upload JSON transcript files (fixed schema).
+   - Input the corresponding video recording URL.  
+   - Trigger backend processing job.
+
+3. **AI Tutorial Generation**  
+   - Use OpenAI SDK to analyse transcript.  
+   - Extract meaningful troubleshooting steps (ignore trivial dialogue).  
+   - Produce human-readable step-by-step tutorial.  
+   - Return timecodes / sub-clips for each step (future enhancement).
+
+4. **Persistent Storage**  
+   - Relational DB (PostgresSQL)
+   - Tables: Users, Transcripts, Tutorials.  
+   - Store source transcript, video URL, tutorial text, creation date, owner.
+
+5. **Tutorial Management UI**  
+   - List user-specific tutorials.  
+   - View tutorial details.  
+   - Edit & save updated tutorial text.
+
+6. **REST API**  
+   - Endpoints for authentication callback, transcript upload, processing trigger, tutorial CRUD.
+
+# User Experience  
+**Personas**  
+• *Support Engineer Sam* – uploads transcripts after calls.  
+• *Knowledge Manager Kim* – reviews & edits generated tutorials.
+
+**Key Flows**  
+1. Sam logs in with GitHub → Uploads transcript & recording URL → Receives generated tutorial link.  
+2. Kim logs in → Browses tutorial list → Edits wording → Saves updated tutorial.
+
+**UI/UX Considerations**  
+- Minimalist dashboard with drag-and-drop file upload.  
+- Real-time progress indicator while processing.  
+- Markdown editor for tutorial editing.
+
+# Technical Architecture  
+• **Frontend**: React 19 + Vite, Tailwind for styling, GitHub OAuth via @octokit/auth.  
+• **Backend**: FastAPI (Python 3.13).  
+  – Routers: auth, transcripts, tutorials.  
+  – Services: AI processing (OpenAI), persistence (SQLAlchemy, alembic).  
+• **Database**: PostgresSQL with Docker (integration tests with testcontainers)
+• **AI Integration**: OpenAI ChatCompletion through Python SDK.  
+• **Storage**: Transcripts stored in DB; recordings remain external via provided URL.  
+• **Infrastructure**: Docker Compose (frontend, backend, db), Makefiles for dev workflow.
+
+# Development Roadmap  
+## Phase 1 – MVP  
+1. Set up project skeleton (Docker, FastAPI, React) - Done.
+2. Implement GitHub OAuth backend + frontend login.  
+3. Transcript upload endpoint & UI.  
+4. Basic AI processing service that returns plaintext tutorial.  
+5. Persist tutorial & transcript.  
+6. List & view tutorials UI.
+
+## Phase 2 – Editing & UX Polish  
+1. Rich Markdown editor for tutorial editing.  
+2. PATCH endpoint to update tutorial.  
+3. Improve error handling & validations.  
+4. Add loading/progress states.
+
+## Phase 3 – Enhancements  
+1. Generate sub-clip timecodes & include in tutorial.  
+2. Search & filter tutorials.  
+3. Multi-user sharing / public links.  
+4. Postgres deployment & CI/CD.
+
+# Logical Dependency Chain  
+1. Core project scaffolding.  
+2. Authentication (foundation for user-specific data).  
+3. Data models & database layer.  
+4. Transcript upload & storage.  
+5. AI processing service.  
+6. Tutorial persistence & retrieval.  
+7. Frontend display of tutorials.  
+8. Editing capability.  
+9. Advanced enhancements.
+
+# Risks and Mitigations  
+• **AI Output Quality** – Validate steps; allow user editing (mitigation).  
+• **Cost of OpenAI API** – Implement token optimisation & caching.  
+• **Transcript Format Drift** – Validate schema on upload; version transcripts.  
+• **OAuth Rate Limits** – Cache tokens; handle refresh gracefully.  
+• **Data Privacy** – Secure storage, HTTPS, tokenised PII.
+
+# Appendix  
+• Sample transcript schema included in repo under `backend/data/*.json`.  
+• Reference: OpenAI function-calling docs for structured outputs.  
+• Tailwind UI inspiration: https://tailwindui.com/components/application-ui/forms/file-upload. 
