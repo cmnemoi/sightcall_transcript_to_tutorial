@@ -22,7 +22,7 @@ This project is optimized to be launched on UNIX-like systems.
 
 ### Optional
 
-- [Docker Compose](https://docs.docker.com/compose/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/) or [PostgreSQL 17+](https://www.postgresql.org/download/)
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) 
 - [curl](https://curl.se/download.html)
 - [make](https://www.gnu.org/software/make/)
@@ -46,15 +46,18 @@ If you have all dependencies installed:
   - Modify `GITHUB_CLIENT_ID` - You can get one [here](https://github.com/settings/developers) after creating an new OAuth app
   - Modify `GITHUB_CLIENT_SECRET` - You can get one [here](https://github.com/settings/developers) after creating an new OAuth app
   - Modify `OPENAI_API_KEY` - You can get one [here](https://platform.openai.com/account/api-keys) after creating an new account
+  - Modify `DATABASE_URL` - With your PostgreSQL connection string
 
-- If you have Docker Compose, run `docker compose up`
+- If you have Docker Compose, run `docker compose up` and `docker compose exec backend python -m alembic upgrade head` to run the migrations
 - If you don't have Docker Compose :
-  - Install backend:
+  - Setup your PostgreSQL database
+  - Install backend and run the migrations :
 ```
 cd backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+python3 -m alembic upgrade head
 uvicorn sightcall_transcript_to_tutorial.main:app --host localhost --port 8000
 ```
 
@@ -64,6 +67,8 @@ cd frontend
 npm install
 npm run dev
 ```
+
+App will run on `http://localhost:3000`
 
 # Testing
 

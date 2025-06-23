@@ -2,6 +2,7 @@ all: setup-git-hooks
 	$(MAKE) -C backend
 	$(MAKE) -C frontend
 	$(MAKE) build-and-run
+	$(MAKE) -C backend migrate-up
 
 .PHONY: build-and-run
 build-and-run:
